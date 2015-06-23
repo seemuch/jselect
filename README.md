@@ -10,8 +10,8 @@ jselect is a simple tool to select elements from JSON files.
 ### Usage
 Two usages:
 
-1. jselect file_name wanted_elements  e.g. jselect student.json department.major
-2. some_input | jselect wanted_elements  e.g. cat student.json | jselect department.major
+1. jselect file_name wanted_elements  e.g. ```jselect student.json department.major```
+2. some_input | jselect wanted_elements  e.g. ```cat student.json | jselect department.major```
 
 ### Example
 Assume there is a file called sample.json, which looks like the following:
